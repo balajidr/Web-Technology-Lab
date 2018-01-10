@@ -1,0 +1,38 @@
+<html>
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+	.image{
+		z-index: 0;
+		position: absolute;
+		margin-left: 10px;
+	}
+</style>
+</head>
+<body>
+	<div class="image" style="margin-left: 10px; text-align: center;">
+		<img src="ana.jpg"/>
+		<p style="margin-left: 10px; color: black;"><b>1</b> </p>
+	</div>
+	<div class="image" style="margin-left: 50px; text-align: center;">
+		<img src="an1.png"/>
+		<p style="margin-left: 10px; color: black;"><b>YES</b></p>
+	</div>
+	<div class="image" style="margin-left: 40px; text-align: center;">
+		<img src="color.jpg" />
+		<p style="margin-left: 5px; color: black;"></p>
+	</div>
+	
+	<script>
+		$(document).ready(function(){
+			$(".image").click(function(){
+				
+				$(".image").not(this).css("z-index", 0);
+				$(this).css("z-index", 100);
+			});
+			
+		});
+	</script>
+	
+</body>
+</html>
