@@ -1,0 +1,12 @@
+car_catalog {font-size:80%; margin:0.75em; font-family: Verdana; display:block;}
+car {display:block; border: 2px solid black; margin:0.7em; padding:1.25em; background-color:yellow;}
+year, make, model, engine, color ,number_of_doors, number_of_cylinders, fuel_system ,transmission_type, accessories {display:block}
+make {color:white; font-size:200%; text-decoration: underline; font-weight: bold; padding-left: 2cm;}
+model {color:black; font-size:145%; font-weight: bold; padding-left: 2cm;}
+year {color:orange; padding-left: 2cm;}
+color {color:brown; padding-left: 2cm;}
+engine {color:brown; padding-left: 2cm;}	
+number_of_cylinders {color:brown; padding-left: 0.5cm;}
+fuel_system {color:grey; padding-left: 0.5cm;}
+number_of_doors {color:blue; padding-left: 2cm;}
+transmission_type{color:maroon; padding-left: 2cm;}

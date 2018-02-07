@@ -1,0 +1,134 @@
+<?xml-stylesheet type="text/css" href="patient.css"?>
+<?xml-stylesheet type="text/xsl" href="patient.xsl"?>
+<hospital>
+    <patient>
+       <name>
+        Shane Watson
+       </name>
+       <ssn>
+          D101
+       </ssn>
+       <age>
+        Age : 22
+       </age>
+       <roomnumber>
+          RoomNo:101
+       </roomnumber>
+	   <phonenumber>
+	   9655555534
+	   </phonenumber>
+	   <address>
+	   China
+	   </address>
+       <medicalproblem>
+            Bone Marrow replacement   
+       </medicalproblem>
+       <drugallergies>
+            Paracetamol
+       </drugallergies>
+    </patient>
+    <patient>
+      <name>
+        Ramki
+      </name>
+      <ssn>
+        D102
+      </ssn>
+      <age>
+         Age :32
+      </age>
+      <roomnumber>
+        RoomNo: 102
+      </roomnumber>
+      <phonenumber>
+	   9894557424
+	   </phonenumber>
+	   <address>
+	   Chennai
+	   </address>
+      <medicalproblem>
+        Throat Infection    
+      </medicalproblem>
+      <drugallergies>
+         Calpol
+      </drugallergies>
+   </patient>
+   <patient>
+      <name>
+       Ramarajan
+      </name>
+      <ssn>
+          D103
+      </ssn>
+      <age>
+        Age : 15
+      </age>
+      <roomnumber>
+        RoomNo: 103
+      </roomnumber>
+     <phonenumber>
+	   8785517744
+	   </phonenumber>
+	   <address>
+	   Mumbai
+	   </address>
+      <medicalproblem>
+          Spinal injury    
+      </medicalproblem>
+      <drugallergies>
+          Paracetamol
+      </drugallergies>
+   </patient>
+   <patient>
+      <name>
+         Tom Mitchell
+      </name>
+      <ssn>
+          D105
+      </ssn>
+      <age>
+       Age : 39
+      </age>
+      <roomnumber>
+        RoomNo: 105
+      </roomnumber>
+    <phonenumber>
+	   9664177424
+	   </phonenumber>
+	   <address>
+	   Chennai
+	   </address>
+      <medicalproblem>
+			Throat infection
+      </medicalproblem>
+      <drugallergies>
+             Aspirin
+      </drugallergies>
+   </patient>
+    <patient>
+      <name>
+         Jimm Fallon
+      </name>
+      <ssn>
+          D106
+      </ssn>
+      <age>
+       Age : 24
+      </age>
+      <roomnumber>
+        RoomNo: D106
+      </roomnumber>
+    <phonenumber>
+	   7785177424
+	   </phonenumber>
+	   <address>
+	   Chennai
+	   </address>
+      <medicalproblem>
+            Fever    
+      </medicalproblem>
+      <drugallergies>
+            Paracetamol
+      </drugallergies>
+   </patient>
+</hospital>
