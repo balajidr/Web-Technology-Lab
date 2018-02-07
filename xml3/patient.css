@@ -1,0 +1,77 @@
+hospital {font-size:80%; margin:0.75em; font-family: Verdana;}
+patient{    border: 100px solid black;
+			font-family:Combic Sans;
+            color:black;
+            display:block;
+			background-color: pink;
+			padding: 50px 50px 50px 50px;
+}
+name
+{
+            color:Black;
+            display:block;
+            font-size:20px;
+            font-family:sansserif;
+}
+age
+{
+            color:black;
+            display:block;
+            font-size:20px;
+}
+roomno
+{
+            color:black
+            display:block;
+            font-size:20px;
+}
+drugallergies
+{
+	color:black;
+	display:block;
+	 font-size:20px; 
+}
+address
+{
+	color:black;
+	display:block;
+	 font-size:20px;
+}
+medicalproblem
+{
+	color:black;
+	display:block;
+	 font-size:20px;
+}
+ssn
+{
+	color:black;
+	display:block;
+}
+roomnumber,room
+{
+	display:block;
+	color:black;
+}
+phonenumber
+{
+	display:block;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
