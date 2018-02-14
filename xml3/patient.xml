@@ -12,12 +12,12 @@
        51
        </age>
        <roomnumber>
-          RoomNo:101
+          101
        </roomnumber>
 	   <phonenumber>
 	   9655555534
 	   </phonenumber>
-	   <address>
+	   <address st="st.Mount Street">
 	   China
 	   </address>
        <medicalproblem>
@@ -27,6 +27,7 @@
             Paracetamol
        </drugallergies>
     </patient>
+	<!-- this is a test comment --> 
     <patient>
       <name>
         Ramki
@@ -35,15 +36,15 @@
         D102
       </ssn>
       <age>
-         Age :32
+        32
       </age>
       <roomnumber>
-        RoomNo: 102
+       102
       </roomnumber>
       <phonenumber>
 	   9894557424
 	   </phonenumber>
-	   <address>
+	   <address st="Sample Street">
 	   Chennai
 	   </address>
       <medicalproblem>
@@ -61,15 +62,15 @@
           D103
       </ssn>
       <age>
-        Age : 15
+        15
       </age>
       <roomnumber>
-        RoomNo: 103
+        103
       </roomnumber>
      <phonenumber>
 	   8785517744
 	   </phonenumber>
-	   <address>
+	   <address st="st.Mount">
 	   Mumbai
 	   </address>
       <medicalproblem>
@@ -87,15 +88,15 @@
           D105
       </ssn>
       <age>
-       Age : 39
+       39
       </age>
       <roomnumber>
-        RoomNo: 105
+        105
       </roomnumber>
     <phonenumber>
 	   9664177424
 	   </phonenumber>
-	   <address>
+	   <address st="tomas street">
 	   Chennai
 	   </address>
       <medicalproblem>
@@ -113,15 +114,15 @@
           D106
       </ssn>
       <age>
-       Age : 24
+      24
       </age>
       <roomnumber>
-        RoomNo: D106
+        D106
       </roomnumber>
     <phonenumber>
 	   7785177424
 	   </phonenumber>
-	   <address>
+	   <address st="dummy Street">
 	   Chennai
 	   </address>
       <medicalproblem>
