@@ -1,0 +1,70 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Feb 21, 2018 at 09:26 AM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `employee`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `emp`
+--
+
+CREATE TABLE `emp` (
+  `ID` int(11) NOT NULL,
+  `PASS` varchar(20) DEFAULT NULL,
+  `NAME` varchar(30) DEFAULT NULL,
+  `AGE` int(11) DEFAULT NULL,
+  `DEPT` varchar(20) DEFAULT NULL,
+  `SALARY` decimal(7,2) DEFAULT NULL,
+  `DESIGNATION` varchar(30) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `emp`
+--
+
+INSERT INTO `emp` (`ID`, `PASS`, `NAME`, `AGE`, `DEPT`, `SALARY`, `DESIGNATION`) VALUES
+(1000, 'ME', 'RAGHUVARAN', 24, 'SALES', '7000.00', 'SR. MANAGER'),
+(1001, 'ME', 'SAAMBU MAVAN', 23, 'SALES', '2000.00', 'ANALYST'),
+(1002, 'ME', 'CHINNA THAMBI', 25, 'ACCOUNTS', '6000.00', 'MANAGER'),
+(1003, 'ME', 'PERIYA THAMBI', 27, 'ACCOUNTS', '7000.00', 'SR. MANAGER'),
+(1004, 'ME', 'SNAKE BABU', 21, 'SALES', '4000.00', 'MANAGER'),
+(1005, 'ME', 'VANDU MURUGAN', 27, 'ADMIN', '2500.00', 'CLERK'),
+(1006, 'ME', 'BANNERJI', 24, 'ACCOUNTS', '4500.00', 'ACCOUNTANT'),
+(1007, 'ME', 'RAJINI MURUGAN', 25, 'SALES', '5000.00', 'ANALYST'),
+(1008, 'ME', 'VIKRAM VEDHA', 28, 'ADMIN', '9000.00', 'CHAIRMAN'),
+(1009, 'ME', 'VETTUKIZHI', 22, 'ACCOUNTS', '6000.00', 'MANAGER');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `emp`
+--
+ALTER TABLE `emp`
+  ADD PRIMARY KEY (`ID`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
